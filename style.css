@@ -1,0 +1,152 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f9fc;
+}
+
+header {
+	background-color: rgb(37, 37, 251);
+	color: rgb(255, 255, 255);
+	padding: 20px;
+}
+
+h1 {
+	margin: 500;
+}
+
+nav ul {
+	list-style: none;
+	margin: 1;
+	padding: 1;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.hero {
+	background-color: #eb2f9d;
+	color: rgb(246, 230, 230);
+	padding: 50px;
+	text-align: center;
+}
+
+.features {
+	max-width: 800px;
+	margin: 0auto;
+	padding: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.feature {
+	flex-basis: 25%;
+	background-color: rgb(255, 255, 255);
+	padding: 35px;
+	margin-bottom: 30px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.feature img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: rgb(255, 255, 255);
+	color: #ff50b9;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.gambar-hover {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s;
+  }
+  
+  .gambar-hover:hover {
+    transform: scale(1.1);
+  }
+  
+
+
+
+.video-player {
+    width: 85%;
+    height: auto;
+    max-width: 250px;
+  }
+  video-player {
+    width: 85%;
+    height: auto;
+    max-width: 250px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  main {
+    margin: 10px;
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px
+  }
